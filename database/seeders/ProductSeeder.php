@@ -104,7 +104,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'product_name' => "სტანდარტული ფორთოხლის წვენი",
-            'category_id' => 2,
+            'category_id' => 3,
             'image_link' => "https://mcdonalds.ge/f3f8dcc41c04-resized.png",
             'show_main' => 1,
             'price' => 4.5,
@@ -113,7 +113,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'product_name' => "ცივი ყავა",
-            'category_id' => 2,
+            'category_id' => 3,
             'image_link' => "https://mcdonalds.ge/ee3019c51665-resized.png",
             'show_main' => 1,
             'price' => 4,
@@ -123,7 +123,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'product_name' => "სტანდარტული სპრაიტი",
-            'category_id' => 2,
+            'category_id' => 3,
             'image_link' => "https://mcdonalds.ge/9501e92d417d-resized.png",
             'show_main' => 1,
             'price' => 5,
@@ -133,7 +133,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'product_name' => "სტანდარტული ფანტა",
-            'category_id' => 2,
+            'category_id' => 3,
             'image_link' => "https://mcdonalds.ge/7f1fa7e99458-resized.png",
             'show_main' => 1,
             'price' => 3.2,
@@ -143,7 +143,7 @@ class ProductSeeder extends Seeder
 
         DB::table('products')->insert([
             'product_name' => "სტანდარტული კოკა-კოლა",
-            'category_id' => 2,
+            'category_id' => 3,
             'image_link' => "https://mcdonalds.ge/13bf39d83aef-resized.png",
             'show_main' => 1,
             'price' => 4,
