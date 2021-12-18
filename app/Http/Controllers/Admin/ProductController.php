@@ -16,8 +16,11 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::with('category')->get();
-        return view("admin.products.index", compact("products"));
+        $categories = Category::with(['products' => function($query) {
+            $query->orderBy('priority', 'asc');
+        }])->get();
+
+        return view("admin.products.index", compact("categories"));
     }
 
     /**
@@ -108,7 +111,14 @@ class ProductController extends Controller
     public function destroy($id)
     {
         Product::find($id)->delete();
+        return redirect("/admin/products");
+    }
 
+    public function changePriority(Request $req, $id) {
+        $product = Product::find($id);
+        $product->priority = $req->priority;
+        $product->save();
+        
         return redirect("/admin/products");
 
     }
