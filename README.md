@@ -7,6 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Introduction
+Used products and categories: https://mcdonalds.ge/ge/menu
+Laravel project by Davit Osadze
+
 ## Installation
 First run command "php artisan migrate"
 Then run command "php artisan db:seed --class=CategorySeeder"

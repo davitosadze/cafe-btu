@@ -50,6 +50,16 @@
           @yield('content')
       </div>
 
+
+      <footer style="float: left; margin-top:10px; width:100%;" class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright:
+          <a class="text-dark" href="https://www.linkedin.com/in/davit-osadze-0b2285158/">Davit Osadze</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- Popper.JS -->
