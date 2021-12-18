@@ -12,9 +12,10 @@ Used products and categories: https://mcdonalds.ge/ge/menu
 Laravel project by Davit Osadze
 
 ## Installation
-First run command "php artisan migrate"
-Then run command "php artisan db:seed --class=CategorySeeder"
-Then run command "php artisan db:seed --class=ProductSeeder"
+Installation commands:
+ - composer install
+ - php artisan migrate
+ - php artisan db:seed
 
 ## Adminpanel Route
 /admin - without authotization
